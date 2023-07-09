@@ -1,0 +1,7 @@
+README.md
+setup.py
+amazon_sales_review.egg-info/PKG-INFO
+amazon_sales_review.egg-info/SOURCES.txt
+amazon_sales_review.egg-info/dependency_links.txt
+amazon_sales_review.egg-info/requires.txt
+amazon_sales_review.egg-info/top_level.txt
