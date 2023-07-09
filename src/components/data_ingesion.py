@@ -1,6 +1,7 @@
 from src.exception import CustomException
 from src.logger import logging
 from sqlalchemy import create_engine
+from sqlalchemy.engine import URL
 import pandas as pd
 import numpy as np
 import os
@@ -9,11 +10,14 @@ from dataclasses import dataclass
 import warnings
 
 warnings.simplefilter('ignore')
-connection = create_engine(
-    "mysql+pymysql://" +
-    "root" + ":" + "12345678rk" + "@" + "localhost" + ":" + "3306" + "/" + "amazon_sales_data" +
-    "?" + "charset=utf8mb4"
-).connect()
+my_url = URL.create(
+    "mysql+pymysql",
+    username="root",
+    password="12345678rk",
+    host="localhost",
+    database="amazon_sales_data"
+)
+connection = create_engine(my_url)
 
 
 @dataclass
@@ -27,11 +31,15 @@ class InitiateDataIngesion:
 
     def get_data(self, data=('raw', 'processed')):
         if data == 'raw':
-            raw_data = pd.read_sql('sales_data_raw', self.config.engine, index_col=None)
+            raw_data = pd.read_sql_table(
+                table_name='sales_data_raw', con=self.config.engine.connect(), index_col=None
+            )
             logging.info('Fetched the raw data from database')
             return raw_data
         elif data == 'processed':
-            processed_data = pd.read_sql('sales_data', self.config.engine, index_col=None)
+            processed_data = pd.read_sql_table(
+                table_name='sales_data', con=self.config.engine.connect(), index_col=None
+            )
             logging.info('Fetched the processed data from database')
             return processed_data
 

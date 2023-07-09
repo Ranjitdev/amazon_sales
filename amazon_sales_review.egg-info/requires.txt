@@ -2,5 +2,10 @@ pandas
 numpy
 streamlit
 SQLAlchemy
-mysql
 mysql-connector-python
+seaborn
+matplotlib
+plotly
+Pillow
+wordcloud
+scipy

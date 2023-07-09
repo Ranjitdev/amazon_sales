@@ -1,0 +1,175 @@
+[2023-07-10 01:03:49,303] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:03:50,361] [53 root INFO] Default products Chart generated successfully
+[2023-07-10 01:04:52,550] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:04:53,377] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:06:04,367] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:06:05,452] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:07:13,282] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:07:14,090] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:07:44,600] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:07:45,679] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:08:26,957] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:08:28,088] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:08:30,793] [69 root INFO] Monthly Chart generated successfully
+[2023-07-10 01:08:50,041] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:08:50,902] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:09:05,245] [69 root INFO] Monthly Chart generated successfully
+[2023-07-10 01:09:15,372] [88 root INFO] Yearly Chart generated successfully
+[2023-07-10 01:09:17,984] [140 root INFO] Yearly Month wise Chart generated successfully
+[2023-07-10 01:09:20,567] [118 root INFO] 2017 Chart generated successfully
+[2023-07-10 01:09:20,781] [118 root INFO] 2018 Chart generated successfully
+[2023-07-10 01:09:21,077] [118 root INFO] 2019 Chart generated successfully
+[2023-07-10 01:09:25,633] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:16:42,856] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:16:44,228] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:16:45,307] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:17:47,621] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:17:49,010] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:17:49,821] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:19:36,416] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:19:37,812] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:19:38,604] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:20:06,567] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:20:07,947] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:20:08,751] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:24:52,799] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:24:54,169] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:24:55,237] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:25:03,515] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:25:04,308] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:25:09,152] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:25:09,975] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:25:22,413] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:25:23,829] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:25:24,975] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:27:25,147] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:27:26,561] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:27:27,569] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:27:56,424] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:27:57,197] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:29:15,543] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:29:16,922] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:29:18,001] [53 root INFO] Default Chart generated successfully
+[2023-07-10 01:37:07,278] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:37:08,670] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:37:09,732] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:37:14,410] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:37:59,578] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:37:59,640] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [118] error message ['numpy.ndarray' object has no attribute 'pie']
+[2023-07-10 01:37:59,642] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [118] error message ['numpy.ndarray' object has no attribute 'pie']
+[2023-07-10 01:38:03,166] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:38:07,621] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:38:07,657] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:38:07,725] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:38:10,395] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:38:16,021] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:38:16,996] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:40:19,361] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:40:20,759] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:40:22,166] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:40:28,467] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:40:29,249] [71 root INFO] Monthly Chart generated successfully
+[2023-07-10 01:40:34,165] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:40:34,206] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:40:34,208] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:40:38,815] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:40:39,601] [71 root INFO] Monthly Chart generated successfully
+[2023-07-10 01:40:43,666] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:40:43,733] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [118] error message ['numpy.ndarray' object has no attribute 'pie']
+[2023-07-10 01:40:43,734] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [118] error message ['numpy.ndarray' object has no attribute 'pie']
+[2023-07-10 01:40:58,848] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:40:58,889] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:40:58,893] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:44:10,543] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:44:11,923] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:44:11,968] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:44:11,971] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:44:24,267] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:44:25,680] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:44:25,719] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:44:25,722] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:44:53,984] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:44:55,381] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:44:55,418] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:44:55,421] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [78] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:45:45,263] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:45:46,635] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:45:46,670] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [77] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:45:46,674] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [77] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:45:52,586] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:45:53,529] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:45:56,476] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:45:56,717] [70 root INFO] Monthly Chart generated successfully
+[2023-07-10 01:46:01,734] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:46:01,771] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [77] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:46:01,775] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [77] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:46:50,773] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:46:52,196] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:46:52,232] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [77] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:46:52,235] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [77] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:46:56,514] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:46:56,751] [70 root INFO] Monthly Chart generated successfully
+[2023-07-10 01:47:00,087] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:47:00,424] [142 root INFO] Yearly Month wise Chart generated successfully
+[2023-07-10 01:47:05,094] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:47:05,428] [120 root INFO] 2017 Chart generated successfully
+[2023-07-10 01:47:05,636] [120 root INFO] 2018 Chart generated successfully
+[2023-07-10 01:47:05,924] [120 root INFO] 2019 Chart generated successfully
+[2023-07-10 01:47:11,479] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:47:11,518] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [77] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:47:11,520] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [77] error message ['NoneType' object has no attribute 'dpi_scale_trans']
+[2023-07-10 01:47:54,230] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:47:55,628] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:47:55,833] [89 root INFO] Yearly Chart generated successfully
+[2023-07-10 01:48:17,214] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:48:17,424] [89 root INFO] Yearly Chart generated successfully
+[2023-07-10 01:48:21,752] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:48:21,965] [89 root INFO] Yearly Chart generated successfully
+[2023-07-10 01:50:28,923] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:50:30,305] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:50:31,078] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:54:10,427] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:54:11,886] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:54:13,074] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:55:01,483] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:55:02,867] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:55:03,973] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:56:14,211] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:56:15,644] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:56:16,703] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:56:29,397] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:56:30,170] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:57:48,426] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:57:49,826] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:57:50,923] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:57:58,922] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:57:59,705] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:58:09,169] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:58:09,964] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:58:15,856] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:58:16,928] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:58:22,865] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:58:23,838] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:59:23,698] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:59:25,091] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:59:26,142] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:59:37,890] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:59:38,648] [54 root INFO] Default Chart generated successfully
+[2023-07-10 01:59:45,117] [43 root INFO] Fetched the processed data from database
+[2023-07-10 01:59:46,152] [54 root INFO] Default Chart generated successfully
+[2023-07-10 02:00:10,633] [43 root INFO] Fetched the processed data from database
+[2023-07-10 02:00:12,017] [43 root INFO] Fetched the processed data from database
+[2023-07-10 02:00:13,088] [54 root INFO] Default Chart generated successfully
+[2023-07-10 02:00:20,219] [43 root INFO] Fetched the processed data from database
+[2023-07-10 02:00:21,300] [54 root INFO] Default Chart generated successfully
+[2023-07-10 02:00:27,294] [43 root INFO] Fetched the processed data from database
+[2023-07-10 02:00:28,087] [54 root INFO] Default Chart generated successfully
+[2023-07-10 02:00:33,841] [43 root INFO] Fetched the processed data from database
+[2023-07-10 02:00:34,618] [54 root INFO] Default Chart generated successfully
+[2023-07-10 02:00:41,770] [43 root INFO] Fetched the processed data from database
+[2023-07-10 02:00:42,831] [54 root INFO] Default Chart generated successfully
+[2023-07-10 02:01:07,867] [43 root INFO] Fetched the processed data from database
+[2023-07-10 02:01:08,955] [54 root INFO] Default Chart generated successfully
+[2023-07-10 02:02:46,000] [43 root INFO] Fetched the processed data from database
+[2023-07-10 02:02:47,396] [43 root INFO] Fetched the processed data from database
+[2023-07-10 02:02:48,378] [54 root INFO] Default Chart generated successfully

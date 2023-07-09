@@ -5,3 +5,10 @@ amazon_sales_review.egg-info/SOURCES.txt
 amazon_sales_review.egg-info/dependency_links.txt
 amazon_sales_review.egg-info/requires.txt
 amazon_sales_review.egg-info/top_level.txt
+src/__init__.py
+src/exception.py
+src/logger.py
+src/utils.py
+src/components/__init__.py
+src/components/chart_generator.py
+src/components/data_ingesion.py
