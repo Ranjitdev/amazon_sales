@@ -1,10 +1,10 @@
+import os
+
 from src.exception import CustomException
 from src.logger import logging
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
 import pandas as pd
-import numpy as np
-import os
 import sys
 from dataclasses import dataclass
 import warnings
@@ -23,28 +23,43 @@ connection = create_engine(my_url)
 @dataclass
 class DataIngesionConfig:
     engine = connection
+    local_data = 'notebook_amazon_sales/SALESDATA.xlsx'
+    raw_data = 'artifacts/raw_data.csv'
+    data = 'artifacts/data.csv'
 
 
 class InitiateDataIngesion:
     def __init__(self):
         self.config = DataIngesionConfig
+        os.makedirs(os.path.dirname(self.config.data), exist_ok=True)
 
-    def get_data(self, data=('raw', 'processed')):
-        if data == 'raw':
+    def get_data(self, data_from=('raw', 'processed', 'local', 'data')):
+        if data_from == 'raw':
             raw_data = pd.read_sql_table(
                 table_name='sales_data_raw', con=self.config.engine.connect(), index_col=None
             )
             logging.info('Fetched the raw data from database')
             return raw_data
-        elif data == 'processed':
+
+        elif data_from == 'processed':
             processed_data = pd.read_sql_table(
                 table_name='sales_data', con=self.config.engine.connect(), index_col=None
             )
             logging.info('Fetched the processed data from database')
             return processed_data
 
+        elif data_from == 'local_raw_data':
+            df = pd.read_excel(self.config.local_data)
+            df.to_csv(self.config.raw_data, index=False, header=True)
+            return df
+
+        elif data_from == 'data':
+            df = pd.read_csv(self.config.data)
+            return df
+
     def preprocess_raw_data(self, raw_data):
         try:
+            logging.info('Got the local data for preprocess')
             data = raw_data.copy()
             data.drop([
                 'DateKey', 'Invoice Number', 'Item Class', 'Item Number', 'Line Number', 'Order Number',
@@ -64,6 +79,8 @@ class InitiateDataIngesion:
             # sales quantity have a negative value so i am dropping the row
             data.drop(data[data['Sales Quantity'] < 0].index[0], axis=0, inplace=True)
 
+            data.to_csv(self.config.data, index=False, header=True)
+            logging.info('Saved the processed data in  artifacts')
             return data
         except Exception as e:
             raise CustomException(e, sys)
@@ -72,11 +89,11 @@ class InitiateDataIngesion:
         try:
             if raw_data is not None:
                 # Raw data insert into database
-                processed_data.to_sql('sales_data_raw', self.config.engine, index=None, if_exists='append')
+                processed_data.to_sql('sales_data_raw', self.config.engine, index=None, if_exists='replace')
                 logging.info('Inserted raw data into database')
             if processed_data is not None:
                 # processed data insert into database
-                processed_data.to_sql('sales_data', self.config.engine, index=None, if_exists='append')
+                processed_data.to_sql('sales_data', self.config.engine, index=None, if_exists='replace')
                 logging.info('Insertd processed data into database')
         except Exception as e:
             raise CustomException(e, sys)

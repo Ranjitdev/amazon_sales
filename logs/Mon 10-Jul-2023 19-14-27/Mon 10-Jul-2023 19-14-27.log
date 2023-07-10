@@ -1,0 +1,113 @@
+[2023-07-10 19:14:55,583] [62 root INFO] Got the local data for preprocess
+[2023-07-10 19:14:56,335] [62 root INFO] Got the local data for preprocess
+[2023-07-10 19:14:57,651] [83 root INFO] Saved the processed data in  artifacts
+[2023-07-10 19:14:57,697] [83 root INFO] Saved the processed data in  artifacts
+[2023-07-10 19:14:57,771] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\data_ingesion.py] line number [92] error message [(pymysql.err.OperationalError) (1051, "Unknown table 'amazon_sales_data.sales_data_raw'")
+[SQL: 
+DROP TABLE sales_data_raw]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)]
+[2023-07-10 19:14:58,613] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\data_ingesion.py] line number [92] error message [(pymysql.err.OperationalError) (1051, "Unknown table 'amazon_sales_data.sales_data_raw'")
+[SQL: 
+DROP TABLE sales_data_raw]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)]
+[2023-07-10 19:15:00,989] [93 root INFO] Inserted raw data into database
+[2023-07-10 19:15:04,079] [97 root INFO] Insertd processed data into database
+[2023-07-10 19:15:04,149] [66 mysql.connector INFO] package: mysql.connector.plugins
+[2023-07-10 19:15:04,149] [67 mysql.connector INFO] plugin_name: caching_sha2_password
+[2023-07-10 19:15:04,151] [71 mysql.connector INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+[2023-07-10 19:15:05,160] [85 root INFO] Generated Default plot
+[2023-07-10 19:15:06,059] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:15:06,233] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:15:40,819] [62 root INFO] Got the local data for preprocess
+[2023-07-10 19:15:41,941] [83 root INFO] Saved the processed data in  artifacts
+[2023-07-10 19:15:45,184] [93 root INFO] Inserted raw data into database
+[2023-07-10 19:15:48,568] [97 root INFO] Insertd processed data into database
+[2023-07-10 19:15:49,657] [85 root INFO] Generated Default plot
+[2023-07-10 19:15:50,558] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:15:50,734] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:16:27,273] [62 root INFO] Got the local data for preprocess
+[2023-07-10 19:16:28,286] [83 root INFO] Saved the processed data in  artifacts
+[2023-07-10 19:16:31,450] [93 root INFO] Inserted raw data into database
+[2023-07-10 19:16:34,704] [97 root INFO] Insertd processed data into database
+[2023-07-10 19:16:34,887] [98 root INFO] Generated Monthly plot
+[2023-07-10 19:16:36,272] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:16:36,447] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:17:00,616] [62 root INFO] Got the local data for preprocess
+[2023-07-10 19:17:01,631] [83 root INFO] Saved the processed data in  artifacts
+[2023-07-10 19:17:04,672] [93 root INFO] Inserted raw data into database
+[2023-07-10 19:17:07,832] [97 root INFO] Insertd processed data into database
+[2023-07-10 19:17:08,036] [114 root INFO] Generated Yearly plot
+[2023-07-10 19:17:09,277] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:17:09,439] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:19:54,321] [62 root INFO] Got the local data for preprocess
+[2023-07-10 19:19:55,351] [83 root INFO] Saved the processed data in  artifacts
+[2023-07-10 19:19:58,453] [93 root INFO] Inserted raw data into database
+[2023-07-10 19:20:01,630] [97 root INFO] Insertd processed data into database
+[2023-07-10 19:20:02,604] [85 root INFO] Generated Default plot
+[2023-07-10 19:21:07,720] [62 root INFO] Got the local data for preprocess
+[2023-07-10 19:21:08,658] [83 root INFO] Saved the processed data in  artifacts
+[2023-07-10 19:21:11,793] [93 root INFO] Inserted raw data into database
+[2023-07-10 19:21:14,934] [97 root INFO] Insertd processed data into database
+[2023-07-10 19:21:15,884] [85 root INFO] Generated Default plot
+[2023-07-10 19:21:16,724] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:21:16,802] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:21:35,055] [62 root INFO] Got the local data for preprocess
+[2023-07-10 19:21:36,074] [83 root INFO] Saved the processed data in  artifacts
+[2023-07-10 19:21:39,113] [93 root INFO] Inserted raw data into database
+[2023-07-10 19:21:42,263] [97 root INFO] Insertd processed data into database
+[2023-07-10 19:21:42,365] [98 root INFO] Generated Monthly plot
+[2023-07-10 19:21:43,461] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:21:43,542] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:22:09,777] [62 root INFO] Got the local data for preprocess
+[2023-07-10 19:22:10,909] [83 root INFO] Saved the processed data in  artifacts
+[2023-07-10 19:22:14,220] [93 root INFO] Inserted raw data into database
+[2023-07-10 19:22:17,374] [97 root INFO] Insertd processed data into database
+[2023-07-10 19:22:17,478] [114 root INFO] Generated Yearly plot
+[2023-07-10 19:22:18,610] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:22:18,689] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:24:01,516] [85 root INFO] Generated Default plot
+[2023-07-10 19:24:02,377] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:24:02,458] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:24:14,624] [98 root INFO] Generated Monthly plot
+[2023-07-10 19:24:15,745] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:24:15,826] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:24:30,616] [114 root INFO] Generated Yearly plot
+[2023-07-10 19:24:31,789] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:24:31,872] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:25:28,979] [116 root INFO] Generated Yearly plot
+[2023-07-10 19:25:30,189] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:25:30,265] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:25:45,602] [98 root INFO] Generated Monthly plot
+[2023-07-10 19:25:46,695] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:25:46,782] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:25:49,945] [116 root INFO] Generated Yearly plot
+[2023-07-10 19:25:51,103] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:25:51,189] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:26:49,161] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [105] error message ['numpy.ndarray' object has no attribute 'bar']
+[2023-07-10 19:26:49,165] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [105] error message ['numpy.ndarray' object has no attribute 'bar']
+[2023-07-10 19:28:22,343] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [105] error message ['numpy.ndarray' object has no attribute 'bar']
+[2023-07-10 19:28:22,346] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [105] error message ['numpy.ndarray' object has no attribute 'bar']
+[2023-07-10 19:28:29,916] [85 root INFO] Generated Default plot
+[2023-07-10 19:28:30,727] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:28:30,803] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:28:34,868] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [105] error message ['numpy.ndarray' object has no attribute 'bar']
+[2023-07-10 19:28:34,871] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [105] error message ['numpy.ndarray' object has no attribute 'bar']
+[2023-07-10 19:28:49,235] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [110] error message ['numpy.ndarray' object has no attribute 'bar_label']
+[2023-07-10 19:28:49,237] [20 root ERROR] error occured script name [C:\Users\PythonFiles\PYcharm\amazon_sales\src\components\chart_generator.py] line number [110] error message ['numpy.ndarray' object has no attribute 'bar_label']
+[2023-07-10 19:29:15,656] [117 root INFO] Generated Yearly plot
+[2023-07-10 19:29:16,818] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:29:16,898] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:29:23,951] [136 root INFO] Generated Yearly Month wise plot
+[2023-07-10 19:29:25,200] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:29:25,284] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:29:33,526] [164 root INFO] Generated Monthly Year wise plot
+[2023-07-10 19:29:36,147] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:29:36,229] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:29:49,464] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:29:49,541] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:30:02,639] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:30:02,717] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:30:18,439] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:30:18,513] [52 root INFO] Plotted Multi feature plot
+[2023-07-10 19:30:29,491] [40 root INFO] Plotted distribution plot
+[2023-07-10 19:30:29,569] [52 root INFO] Plotted Multi feature plot

@@ -3,10 +3,10 @@ numpy
 streamlit
 SQLAlchemy
 mysql-connector-python
+cryptography
 seaborn
 matplotlib
-plotly
-Pillow
+altair
 wordcloud
-scipy
+openpyxl
 -e .
