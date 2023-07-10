@@ -1,0 +1,5 @@
+/logs
+.log
+*.log
+/ipl_data
+.git

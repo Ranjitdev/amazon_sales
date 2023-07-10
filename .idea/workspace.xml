@@ -6,27 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="224a2055-8034-4118-8df4-47dff6d754e5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazon_sales_review.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/amazon_sales_review.egg-info/requires.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/charts/2017.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/charts/2018.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/charts/2019.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/charts/Default products.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/charts/Default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/charts/Monthly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/charts/Yearly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/charts/all_years_moth_wise.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Mon 10-Jul-2023 00-48-54/Mon 10-Jul-2023 00-48-54.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Mon 10-Jul-2023 01-03-47/Mon 10-Jul-2023 01-03-47.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Mon 10-Jul-2023 02-09-17/Mon 10-Jul-2023 02-09-17.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Mon 10-Jul-2023 02-19-12/Mon 10-Jul-2023 02-19-12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Mon 10-Jul-2023 02-21-57/Mon 10-Jul-2023 02-21-57.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/.ipynb_checkpoints/EDA-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/.ipynb_checkpoints/EDA-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/EDA.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/SALESDATA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/SALESDATA.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chart_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chart_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/data_ingesion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_ingesion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

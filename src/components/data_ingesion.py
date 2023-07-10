@@ -33,7 +33,7 @@ class InitiateDataIngesion:
         self.config = DataIngesionConfig
         os.makedirs(os.path.dirname(self.config.data), exist_ok=True)
 
-    def get_data(self, data_from=('raw', 'processed', 'local', 'data')):
+    def get_data(self, data_from='data'):
         if data_from == 'raw':
             raw_data = pd.read_sql_table(
                 table_name='sales_data_raw', con=self.config.engine.connect(), index_col=None
