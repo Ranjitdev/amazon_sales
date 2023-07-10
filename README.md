@@ -40,7 +40,11 @@
   - Run the docker image in container: - 
     - > docker run -p 8501:8501 ranjitkundu/amazon_sales:v1
   - Initiate GitHub: -
-  - > git init
+    - > git init
+  - Add all files in GitHub: -
+    - > git add .
   - Commit code in GitHub: -
-  - > git commit -m "message"
+    - > git commit -m "message"
+  - Push code in GitHub: -
+    - > git push -u origin main
 
