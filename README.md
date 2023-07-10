@@ -18,15 +18,15 @@
 - data details: [report](notebook_amazon_sales/report.html)  
 
 ## Functions description:
-  - > InitiateDataIngesion().get_data(data_from='data') # Data fetcher function
+  - InitiateDataIngesion().get_data(data_from='data') # Data fetcher function
     - data: local processed data
     - raw: raw data from Mysql database
     - processed: processed data from mysql database
     - local_raw_data: local raw data
-  - > InitiateDataIngesion().preprocess_raw_data(raw_data=df) # Raw data preprocessor function
-  - > InitiateDataIngesion().insert_into_database(raw_data=df, processed_data=data) #Data insertion function in MySQL
-  - > from src.utils import connect_mysql # MySQL connector function for sql query
-  - > from src.components.chart_generator import InitiateChartGenerator, InitiatePlotChart # chart generator and plotter function
+  - InitiateDataIngesion().preprocess_raw_data(raw_data=df) # Raw data preprocessor function
+  - InitiateDataIngesion().insert_into_database(raw_data=df, processed_data=data) #Data insertion function in MySQL
+  - from src.utils import connect_mysql # MySQL connector function for sql query
+  - from src.components.chart_generator import InitiateChartGenerator, InitiatePlotChart # chart generator and plotter function
 
 ## Setup: -
   - Run for create virtual environment
