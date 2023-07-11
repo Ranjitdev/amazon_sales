@@ -1,0 +1,48 @@
+[2023-07-11 17:41:10,463] [62 root INFO] Got the local data for preprocess
+[2023-07-11 17:41:11,402] [88 root INFO] Saved the processed data in  artifacts
+[2023-07-11 17:41:14,913] [98 root INFO] Inserted raw data into database
+[2023-07-11 17:41:18,119] [102 root INFO] Insertd processed data into database
+[2023-07-11 17:41:19,488] [105 root INFO] Generated Default to Sales Quantity plot
+[2023-07-11 17:41:20,343] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:41:20,444] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:41:35,264] [105 root INFO] Generated Default to Sales Quantity plot
+[2023-07-11 17:41:36,106] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:41:36,196] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:41:49,005] [155 root INFO] Generated Yearly month wise bar chart to Sales Quantity plot
+[2023-07-11 17:41:50,271] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:41:50,362] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:41:53,670] [155 root INFO] Generated Yearly month wise bar chart to Sales Price plot
+[2023-07-11 17:41:54,901] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:41:54,992] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:41:59,048] [155 root INFO] Generated Yearly month wise bar chart to Sales Price plot
+[2023-07-11 17:42:00,292] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:42:00,376] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:42:13,951] [155 root INFO] Generated Yearly month wise bar chart to Sales Price plot
+[2023-07-11 17:42:15,401] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:42:15,497] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:42:24,646] [155 root INFO] Generated Yearly month wise bar chart to Sales Price plot
+[2023-07-11 17:42:25,858] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:42:25,942] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:42:39,608] [223 matplotlib.category INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[2023-07-11 17:42:39,611] [223 matplotlib.category INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[2023-07-11 17:42:39,650] [168 root INFO] Generated Yearly month wise line chart to Sales Price plot
+[2023-07-11 17:42:40,786] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:42:40,872] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:42:45,564] [193 root INFO] Generated Monthly Year wise to Sales Price plot
+[2023-07-11 17:42:48,182] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:42:48,271] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:43:00,344] [193 root INFO] Generated Monthly Year wise to Sales Price plot
+[2023-07-11 17:43:02,961] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:43:03,047] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:43:15,204] [193 root INFO] Generated Monthly Year wise to Sales Price plot
+[2023-07-11 17:43:17,793] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:43:17,879] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:43:21,408] [193 root INFO] Generated Monthly Year wise to Sales Price plot
+[2023-07-11 17:43:24,143] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:43:24,230] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:43:27,679] [193 root INFO] Generated Monthly Year wise to Discount Amount plot
+[2023-07-11 17:43:30,396] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:43:30,480] [53 root INFO] Plotted Multi feature plot
+[2023-07-11 17:43:36,719] [193 root INFO] Generated Monthly Year wise to Discount Amount plot
+[2023-07-11 17:43:39,434] [40 root INFO] Plotted distribution plot
+[2023-07-11 17:43:39,516] [53 root INFO] Plotted Multi feature plot

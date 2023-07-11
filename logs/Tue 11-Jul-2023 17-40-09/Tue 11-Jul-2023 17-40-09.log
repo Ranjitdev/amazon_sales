@@ -1,0 +1,4 @@
+[2023-07-11 17:40:21,681] [62 root INFO] Got the local data for preprocess
+[2023-07-11 17:40:22,597] [88 root INFO] Saved the processed data in  artifacts
+[2023-07-11 17:40:26,027] [98 root INFO] Inserted raw data into database
+[2023-07-11 17:40:29,345] [102 root INFO] Insertd processed data into database

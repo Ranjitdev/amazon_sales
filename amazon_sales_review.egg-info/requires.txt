@@ -9,3 +9,4 @@ matplotlib
 altair
 wordcloud
 openpyxl
+pymysql

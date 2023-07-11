@@ -74,6 +74,11 @@ class InitiateDataIngesion:
             data['Month'] = 0
             data['Year'] = data['Invoice Date'].apply(lambda a: int(str(a).split('-')[0]))
             data['Month'] = data['Invoice Date'].apply(lambda a: int(str(a).split('-')[1]))
+            data = data.sort_values(by=['Year', 'Month']).reset_index(drop=True)
+            data['Month'] = data['Month'].map({
+                1: 'Jan', 2: 'Feb', 3: 'Mar', 4: 'Apr', 5: 'May', 6: 'Jun', 7: 'Jul', 8: 'Aug', 9: 'Sep', 10: 'Oct',
+                11: 'Nov', 12: 'Dec'
+            })
             data.drop('Invoice Date', inplace=True, axis=1)
 
             # sales quantity have a negative value so i am dropping the row
@@ -97,3 +102,9 @@ class InitiateDataIngesion:
                 logging.info('Insertd processed data into database')
         except Exception as e:
             raise CustomException(e, sys)
+
+
+if __name__ == '__main__':
+    df = InitiateDataIngesion().get_data(data_from='local_raw_data')
+    data = InitiateDataIngesion().preprocess_raw_data(raw_data=df)
+    InitiateDataIngesion().insert_into_database(raw_data=df, processed_data=data)

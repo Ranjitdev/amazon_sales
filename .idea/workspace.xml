@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="224a2055-8034-4118-8df4-47dff6d754e5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/raw_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Mon 10-Jul-2023 19-14-27/Mon 10-Jul-2023 19-14-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Tue 11-Jul-2023 00-02-47/Tue 11-Jul-2023 00-02-47.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/.ipynb_checkpoints/EDA-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/.ipynb_checkpoints/EDA-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/EDA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chart_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chart_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/data_ingesion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_ingesion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
