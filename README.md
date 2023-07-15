@@ -53,13 +53,17 @@
   - Push code in GitHub: -
     - > git push -u origin main
   - AWS code push: -
-    - > Create an Ubuntu EC2 Instance
-    - > Launch Instances
-    - > When the instance is ready, click “Connect” and choose the tab for SSH access. Follow the instructions for logging into your instance via SSH.
-    - > sudo apt-get update
-    - > sudo apt-get install python3-pip
-    - > pip3 install -r requirements.txt
-    - > streamlit run app.py
-    - > screen -R deploy streamlit run app.py
+    -  Create an Ubuntu EC2 Instance during creation download the key pair
+    -  Launch Instance
+    -  When the instance is ready, click “Connect” and choose the tab EC2 Instance Connect and find for public ip and username
+    -  Go to PuTTYgen and generate key using previously downloaded key pair
+    - connect in PuTTY with that key in ssh>auth and ip in ip address and username in data
+    - Go to WinSCP connect with aws file server drag and drop the required files
+    - Pass the commands on PuTTY to install requirement files and setup
+      - > sudo apt-get update
+      - > sudo apt-get install python3-pip
+      - > pip3 install -r requirements.txt
+      - > streamlit run app.py
+      - > screen -R deploy streamlit run app.py
   
 AWS link: - http://ec2-13-53-77-189.eu-north-1.compute.amazonaws.com:8501/
