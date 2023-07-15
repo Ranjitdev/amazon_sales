@@ -52,7 +52,7 @@
     - > git commit -m "message"
   - Push code in GitHub: -
     - > git push -u origin main
-  - AWS code push: -
+  - AWS deploy: -
     -  Create an Ubuntu EC2 Instance during creation download the key pair
     -  Launch Instance
     -  When the instance is ready, click “Connect” and choose the tab EC2 Instance Connect and find for public ip and username
