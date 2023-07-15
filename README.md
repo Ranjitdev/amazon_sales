@@ -52,4 +52,14 @@
     - > git commit -m "message"
   - Push code in GitHub: -
     - > git push -u origin main
-
+  - AWS code push: -
+    - > Create an Ubuntu EC2 Instance
+    - > Launch Instances
+    - > When the instance is ready, click “Connect” and choose the tab for SSH access. Follow the instructions for logging into your instance via SSH.
+    - > sudo apt-get update
+    - > sudo apt-get install python3-pip
+    - > pip3 install -r requirements.txt
+    - > streamlit run app.py
+    - > screen -R deploy streamlit run app.py
+  
+AWS link: - http://ec2-13-53-77-189.eu-north-1.compute.amazonaws.com:8501/

@@ -7,18 +7,6 @@
     <list default="true" id="224a2055-8034-4118-8df4-47dff6d754e5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/raw_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/raw_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Tue 11-Jul-2023 17-40-09/Tue 11-Jul-2023 17-40-09.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Tue 11-Jul-2023 17-40-57/Tue 11-Jul-2023 17-40-57.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/EDA.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/documentation/powerbi_charts.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/documentation/powerbi_charts.pbix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/documentation/~$reframe.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chart_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chart_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data_ingesion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_ingesion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
