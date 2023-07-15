@@ -1,0 +1,4 @@
+[2023-07-15 16:14:09,021] [72 root INFO] Got the local data for preprocess
+[2023-07-15 16:14:09,606] [97 root INFO] Processed data successfully
+[2023-07-15 16:14:15,735] [115 root INFO] Inserted raw data into database
+[2023-07-15 16:14:18,751] [119 root INFO] Inserted processed data into database

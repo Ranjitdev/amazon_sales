@@ -1,0 +1,26 @@
+[2023-07-15 17:24:04,034] [60 root INFO] Generated Monthly total to Discount Amount plot
+[2023-07-15 17:24:07,552] [60 root INFO] Generated Monthly total to List Price plot
+[2023-07-15 17:24:09,551] [60 root INFO] Generated Monthly total to List Price plot
+[2023-07-15 17:24:11,219] [60 root INFO] Generated Monthly total to List Price plot
+[2023-07-15 17:24:13,187] [60 root INFO] Generated Monthly total to List Price plot
+[2023-07-15 17:24:21,701] [60 root INFO] Generated Monthly total to List Price plot
+[2023-07-15 17:24:25,418] [79 root INFO] Generated Yearly total to List Price plot
+[2023-07-15 17:25:23,984] [69 root INFO] Got the local data for preprocess
+[2023-07-15 17:25:24,134] [94 root INFO] Processed data successfully
+[2023-07-15 17:25:29,484] [112 root INFO] Inserted raw data into database
+[2023-07-15 17:25:32,586] [116 root INFO] Inserted processed data into database
+[2023-07-15 17:25:32,586] [181 root INFO] File updated successfully
+[2023-07-15 17:27:46,186] [69 root INFO] Got the local data for preprocess
+[2023-07-15 17:27:46,333] [94 root INFO] Processed data successfully
+[2023-07-15 17:27:51,350] [112 root INFO] Inserted raw data into database
+[2023-07-15 17:27:54,343] [116 root INFO] Inserted processed data into database
+[2023-07-15 17:27:54,343] [181 root INFO] File updated successfully
+[2023-07-15 17:27:58,167] [60 root INFO] Generated Monthly total to Discount Amount plot
+[2023-07-15 17:28:01,075] [79 root INFO] Generated Yearly total to Discount Amount plot
+[2023-07-15 17:28:09,674] [96 root INFO] Generated Yearly month wise bar chart to Discount Amount plot
+[2023-07-15 17:28:35,449] [96 root INFO] Generated Yearly month wise bar chart to List Price plot
+[2023-07-15 17:29:42,416] [96 root INFO] Generated Yearly month wise bar chart to List Price plot
+[2023-07-15 17:29:50,038] [108 root INFO] Generated Yearly month wise line chart to List Price plot
+[2023-07-15 17:29:56,498] [133 root INFO] Generated Monthly Year wise to List Price plot
+[2023-07-15 17:30:01,408] [157 root INFO] Plotted Uni variate plot
+[2023-07-15 17:30:16,778] [178 root INFO] Plotted Bi variate plot

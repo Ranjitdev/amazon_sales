@@ -1,70 +1,79 @@
 from src.components.data_ingesion import InitiateDataIngesion
-from src.components.chart_generator import InitiateChartGenerator, InitiatePlotChart
+from src.components.chart_generator import InitiateChartGenerator
+from src.utils import data_columns, download, developer
 import streamlit as st
+import warnings
+warnings.simplefilter('ignore')
 
-# df = InitiateDataIngesion().get_data(data_from='local_raw_data')
-# data = InitiateDataIngesion().preprocess_raw_data(raw_data=df)
-# InitiateDataIngesion().insert_into_database(raw_data=df, processed_data=data)
+_, columns, reverse_columns = data_columns()
+with st.sidebar:
+    my_bar = st.radio('', options=('Home', 'Sales Trend', 'Uni variate Analysis', 'Bi variate Analysis', 'Developer'))
 
-# Header
-st.subheader(':blue[______________________________________________________]')
-st.title(':blue[Amazon Sales data analysis]')
-st.subheader(':blue[______________________________________________________]')
+# Dashboard
+if my_bar == 'Home':
+    st.subheader(':blue[___________________________________________________]')
+    st.title(':blue[Amazon Sales]')
+    st.subheader(':blue[___________________________________________________]')
+    st.caption('New sales data entry')
+    raw_data = InitiateDataIngesion().get_data(data_from='local_raw_data')
+    new_data = InitiateDataIngesion().single_data_entry(old_data=raw_data)
+    tab1, tab2, tab3 = st.tabs(['Upload CSV', 'Download CSV', 'Data Viewer'])
+    with tab1:
+        InitiateDataIngesion().mulltiple_entry(old_data=raw_data)
+    with tab2:
+        download(raw_data)
+    with tab3:
+        st.dataframe(raw_data)
+    st.caption('Top Products')
+    InitiateChartGenerator().word_cloud()
+    InitiateChartGenerator().top_products()
 
-# Trend selection and distribution chart generator uses InitiateChartGenerator class
-try:
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        trend_selection = st.radio(
-            ':blue[Select chart type to generate sales trend chart Yearly, Monthly, Combined and other charts]', (
-                'Default', 'Monthly total', 'Yearly total',
-                'Yearly month wise bar chart', 'Yearly month wise line chart',
-                'Monthly Year wise', 'Top products'
+# Trend selection and distribution chart generator uses generate_trend_chart class
+if my_bar == 'Sales Trend':
+    try:
+        st.subheader(':blue[______________________________________________________]')
+        st.title(':blue[Sales Trend]')
+        st.subheader(':blue[______________________________________________________]')
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            trend_selection = st.radio(
+                ':blue[Chart Combination]', (
+                    'Monthly total', 'Yearly total', 'Yearly month wise bar chart', 'Yearly month wise line chart',
+                    'Monthly Year wise'
+                )
             )
-        )
-    with col2:
-        feature = st.radio(
-            ':green[Select the column]', (
-                ['Discount Amount', 'List Price', 'Sales Amount', 'Sales Amount Based on List Price',
-                 'Sales Cost Amount', 'Sales Margin Amount', 'Sales Price', 'Sales Quantity'][::-1]
-            )
-        )
-    with col3:
-        counter = st.radio(
-            ':red[Select calculation type]',
-                ['Total', 'Average', 'Maximum', 'Minimum']
-        )
+        with col2:
+            feature = st.radio(
+                ':blue[Select Parameter]', columns)
+        with col3:
+            counter = st.radio(':blue[Select Total of]', ['Sum', 'Average', 'Maximum', 'Minimum'])
+
+        st.caption('Hover on image and click extend for full size')
+        chart_fig = InitiateChartGenerator().generate_trend_chart(trend_selection, feature, counter)
+    except:
+        pass
+
+# Selection of one of the column and plot distribution uses univariate_plot class
+if my_bar == 'Uni variate Analysis':
+    st.subheader(':blue[______________________________________________________]')
+    st.title(':blue[Uni variate Analysis]')
+    st.subheader(':blue[______________________________________________________]')
+    selected = st.selectbox(':blue[Select the parameter to generate data distribution plot]', columns)
     st.caption('Hover on image and click extend for full size')
-    chart_fig = InitiateChartGenerator(trend_selection, feature, counter).generate_trend_chart()
-    if type(chart_fig) != list:
-        st.pyplot(chart_fig)
-
-    elif type(chart_fig) == list:
-        for i in chart_fig:
-            st.pyplot(i)
-except:
-    pass
-
-# Selection of one of the price column and plot distribution uses InitiatePlotChart class
-selected = st.selectbox(
-    ':blue[Select the column to generate Data distribution count plot]',
-    (['Discount Amount', 'List Price', 'Sales Amount', 'Sales Amount Based on List Price', 'Sales Cost Amount',
-      'Sales Margin Amount', 'Sales Price', 'Sales Quantity']))
-st.caption('Hover on image and click extend for full size')
-InitiatePlotChart().distribution_plot(selected)
+    InitiateChartGenerator().univariate_plot(selected)
 
 # Select two column to compare
-st.subheader(':blue[Comparison of sales amounts yearly month wise: -]')
-col1, col2 = st.columns(2)
-with col1:
-    option1 = st.radio(
-        'Select First element',
-        ['Discount Amount', 'List Price', 'Sales Amount', 'Sales Amount Based on List Price', 'Sales Cost Amount',
-         'Sales Margin Amount', 'Sales Price', 'Sales Quantity'][::-1])
-with col2:
-    option2 = st.radio(
-        'Select second element',
-        ['Discount Amount', 'List Price', 'Sales Amount', 'Sales Amount Based on List Price', 'Sales Cost Amount',
-         'Sales Margin Amount', 'Sales Price', 'Sales Quantity'])
-InitiatePlotChart().multi_features_plot(option1, option2)
+if my_bar == 'Bi variate Analysis':
+    st.subheader(':blue[______________________________________________________]')
+    st.title(':blue[Bi variate Analysis]')
+    st.subheader(':blue[______________________________________________________]')
+    st.subheader(':blue[Comparison of sales amounts yearly month wise: -]')
+    col1, col2 = st.columns(2)
+    with col1:
+        option1 = st.radio('Select First element', columns)
+    with col2:
+        option2 = st.radio('Select second element', reverse_columns)
+    InitiateChartGenerator().bivariate_plot(option1, option2)
 
+if my_bar == 'Developer':
+    developer()
