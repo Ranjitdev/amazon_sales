@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="224a2055-8034-4118-8df4-47dff6d754e5" name="Changes" comment="readme change">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/raw_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/raw_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chart_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chart_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data_ingesion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_ingesion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
