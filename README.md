@@ -7,7 +7,7 @@
 ## Data location: -  
 - description: [Here](https://drive.google.com/file/d/1fK7DM6WZjh7lBANXlqdkDjojOMdRDqbs/view)  
 - data:
-  - drive: [Here]([Here](https://drive.google.com/file/d/1fK7DM6WZjh7lBANXlqdkDjojOMdRDqbs/view))
+  - drive: [Here](https://drive.google.com/file/d/1fK7DM6WZjh7lBANXlqdkDjojOMdRDqbs/view)
   - local processed data: [Here](artifacts/data.csv)
   - local raw data: [Here](artifacts/raw_data.csv)
 - database: MySQL/localhost/amazon_sales_data  
