@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224a2055-8034-4118-8df4-47dff6d754e5" name="Changes" comment="">
+    <list default="true" id="224a2055-8034-4118-8df4-47dff6d754e5" name="Changes" comment="readme change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/raw_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/raw_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook_amazon_sales/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_amazon_sales/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chart_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chart_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/data_ingesion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_ingesion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +54,18 @@
       <option name="presentableId" value="Default" />
       <updated>1688884474576</updated>
     </task>
+    <task id="LOCAL-00001" summary="readme change">
+      <created>1689449207598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689449207598</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="readme change" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme change" />
   </component>
 </project>

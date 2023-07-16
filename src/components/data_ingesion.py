@@ -174,10 +174,9 @@ class InitiateDataIngesion:
                     }
                     st.dataframe(pd.DataFrame([new_data]))
                     new_data = pd.concat([old_data, pd.DataFrame([new_data])], axis=0, ignore_index=True)
-                    self.save_data(raw_data=new_data)
                     processed = self.preprocess_raw_data(raw_data=new_data)
-                    self.save_data(processed_data=processed)
-                    self.save_data(raw_data=new_data, processed_data=processed, location='database')
+                    self.save_data(raw_data=new_data, processed_data=processed, location='local')
+                    # self.save_data(raw_data=new_data, processed_data=processed, location='database')
                     st.caption('New data inserted')
                     logging.info('File updated successfully')
         return old_data
@@ -189,15 +188,17 @@ class InitiateDataIngesion:
             try:
                 df = pd.read_csv(uploaded_file)
                 st.dataframe(df)
-                new_data = pd.concat([df, old_data], axis=0, ignore_index=True)
-                self.save_data(raw_data=new_data)
-                processed = self.preprocess_raw_data(raw_data=new_data)
-                self.save_data(processed_data=processed)
-                self.save_data(raw_data=new_data, processed_data=processed, location='database')
-                logging.info('Data updated')
-                st.caption('File updated successfully')
+                if list(df.columns) == list(old_data.columns):
+                    new_data = pd.concat([df, old_data], axis=0, ignore_index=True)
+                    processed = self.preprocess_raw_data(raw_data=new_data)
+                    self.save_data(raw_data=new_data, processed_data=processed, location='local')
+                    # self.save_data(raw_data=new_data, processed_data=processed, location='database')
+                    logging.info('Data updated')
+                    st.caption('File updated successfully')
+                else:
+                    st.caption(':red[Check the file content is wrong]')
             except:
-                st.caption(':red[Check file format or file content]')
+                st.caption(':red[Check file format]')
 
 if __name__=='__main__':
     raw_data = InitiateDataIngesion().get_data(data_from='notebook')

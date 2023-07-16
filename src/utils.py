@@ -30,7 +30,7 @@ def download(raw_data):
     logging.info('Downloaded the csv file')
 
 def developer():
-    selection = st.selectbox('', ['Logs', 'Readme'])
+    selection = st.selectbox('', ['Logs'])
     if selection == 'Logs':
         logs = []
         for (root, dirs, files) in os.walk('./logs', topdown=True):
@@ -39,8 +39,3 @@ def developer():
         log = st.radio('Logs', logs)
         with open(log, 'r') as file:
             st.dataframe(file.readlines())
-
-    if selection == 'Readme':
-        with open('README.md', 'r') as file:
-            st.dataframe(file.readlines())
-

@@ -28,7 +28,7 @@ class InitiateChartGenerator:
     def generate_trend_chart(self, selection, feature, counter):
         data = self.config.data
         global yearly_group
-        if counter == 'Sum':
+        if counter == 'Total':
             yearly_group = pd.DataFrame(
                 data.groupby(['Year', 'Month'], sort=False)[feature].sum()
             ).reset_index()
@@ -54,8 +54,8 @@ class InitiateChartGenerator:
                     estimator='sum', palette='bright', errorbar=None, ax=ax
                 )
                 ax.bar_label(ax.containers[0])
-                plt.title('Sales trend Monthly total')
-                plt.ylabel('Total sales')
+                plt.title(f'{counter} {selection} of {feature}')
+                plt.ylabel(f'Total {feature}')
                 plt.xlabel('Month')
                 logging.info(f'Generated {selection} to {feature} plot')
                 st.pyplot(fig)
@@ -69,7 +69,9 @@ class InitiateChartGenerator:
                     errorbar=None, width=0.5, estimator='sum'
                 )
                 plt.ticklabel_format(style='plain', axis='y')
-                plt.title('Sales trend Yearly total')
+                plt.title(f'{counter} {selection} of {feature}')
+                plt.xlabel('Year')
+                plt.ylabel(f'Total {feature}')
 
                 plt.subplot(122)
                 plt.pie(
@@ -79,7 +81,7 @@ class InitiateChartGenerator:
                 logging.info(f'Generated {selection} to {feature} plot')
                 st.pyplot(fig)
 
-            # Bar chart
+            # Yearly month wise bar chart
             elif selection == 'Yearly month wise bar chart':
                 fig, ax = plt.subplots(figsize=(20, 10))
                 sns.barplot(
@@ -87,12 +89,12 @@ class InitiateChartGenerator:
                     ax=ax, palette='bright', width=0.8, estimator='sum'
                 )
                 for i in range(len(yearly_group['Year'].unique())):
-                    ax.bar_label(ax.containers[i], color='red', size=12)
+                    ax.bar_label(ax.containers[i], color='red', size=10)
                 plt.ticklabel_format(style='plain', axis='y')
                 plt.legend(title='Yearly month wise sales', loc='lower right')
-                plt.title('Sales trend yearly month wise')
-                plt.ylabel('Total sales')
-                plt.xlabel('Year wise months')
+                plt.title(f'{counter} {selection} of {feature}')
+                plt.ylabel(f'Total {feature}')
+                plt.xlabel('Yearly Month wise')
                 logging.info(f'Generated {selection} to {feature} plot')
                 st.pyplot(fig)
 
@@ -102,15 +104,14 @@ class InitiateChartGenerator:
                 sns.pointplot(data=yearly_group, x='Month', y=feature, hue='Year', ax=ax, estimator='sum')
                 plt.legend(title='Year wise monthly sales', loc='lower right')
                 plt.legend(title='Yearly month wise sales', loc='lower right')
-                plt.title('Sales trend yearly month wise')
-                plt.ylabel('Total sales')
-                plt.xlabel('Year wise months')
+                plt.title(f'{counter} {selection} of {feature}')
+                plt.ylabel(f'Total {feature}')
+                plt.xlabel('Yearly Month wise')
                 logging.info(f'Generated {selection} to {feature} plot')
                 st.pyplot(fig)
 
             # Monthly year wise report generator separate reports for every year
             elif selection == 'Monthly Year wise':
-                path = []
                 for year in yearly_group['Year'].unique():
                     current = yearly_group[yearly_group['Year'] == year]
 
@@ -120,10 +121,10 @@ class InitiateChartGenerator:
                     sns.barplot(data=current, y=feature, x='Month', estimator='sum',
                                 palette='bright', errorbar=None, ax=ax[0], width=0.5)
                     for i in ax[0].containers:
-                        ax[0].bar_label(i, color='blue', size=8)
-                    plt.title(str(year) + ' Sales trend month wise')
-                    plt.ylabel('Total sales')
-                    plt.xlabel('Month')
+                        ax[0].bar_label(i, color='black', size=10)
+                    plt.title(f'{counter} of {feature} in {year}')
+                    plt.ylabel(f'Total {feature}')
+                    plt.xlabel('Monthly')
 
                     plt.subplot(122)
                     plt.title(str(year) + ' Sales trend percentage month wise')

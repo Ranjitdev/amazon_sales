@@ -24,9 +24,9 @@ if my_bar == 'Home':
         download(raw_data)
     with tab3:
         st.dataframe(raw_data)
-    st.caption('Top Products')
-    InitiateChartGenerator().word_cloud()
-    InitiateChartGenerator().top_products()
+    # st.caption('Top Products')
+    # InitiateChartGenerator().word_cloud()
+    # InitiateChartGenerator().top_products()
 
 # Trend selection and distribution chart generator uses generate_trend_chart class
 if my_bar == 'Sales Trend':
@@ -46,7 +46,7 @@ if my_bar == 'Sales Trend':
             feature = st.radio(
                 ':blue[Select Parameter]', columns)
         with col3:
-            counter = st.radio(':blue[Select Total of]', ['Sum', 'Average', 'Maximum', 'Minimum'])
+            counter = st.radio(':blue[Select Total of]', ['Total', 'Average', 'Maximum', 'Minimum'])
 
         st.caption('Hover on image and click extend for full size')
         chart_fig = InitiateChartGenerator().generate_trend_chart(trend_selection, feature, counter)
