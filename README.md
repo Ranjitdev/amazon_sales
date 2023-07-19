@@ -38,20 +38,24 @@
     - > conda create -p venv python=3.10 -y
   - Run before start application: -
     - > pip install -r requirements.txt
+  - Run the application: -
+  - > streamlit run app.py
+  - Access in browser: -
+  - > localhost:8501
   - Run for create docker image: -
     - > docker build -t ranjitkundu/amazon_sales:v1 .
-  - Show docker images: -
-    - > docker images
-  - Run the docker image in container: - 
-    - > docker run -p 8501:8501 ranjitkundu/amazon_sales:v1
-  - Initiate GitHub: -
-    - > git init
-  - Add all files in GitHub: -
-    - > git add .
-  - Commit code in GitHub: -
-    - > git commit -m "message"
+    - Show docker images: -
+      - > docker images
+    - Run the docker image in container: - 
+      - > docker run -p 8501:8501 ranjitkundu/amazon_sales:v1
   - Push code in GitHub: -
-    - > git push -u origin main
+    - > git init
+    - Add all files in GitHub: -
+      - > git add .
+    - Commit code in GitHub: -
+      - > git commit -m "message"
+    - Push code in GitHub: -
+      - > git push -u origin main
 - AWS deploy: -
   -  Create an Ubuntu EC2 Instance during creation download the key pair
   -  Launch Instance
